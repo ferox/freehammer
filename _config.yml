@@ -1,0 +1,58 @@
+url: http://127.0.0.1
+baseurl:
+
+# Site settings
+title: freehammer - consulting & associates
+email: fernando@ferox.tk
+description: "Serviços de TI com foco em Tecnologias Livres"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 00ccad
+  secondary: 008f7a
+  secondary-dark: 333
+
+# Team names, titles and social links
+people:
+- name: Fernando "ferox" dos Santos
+  pic: 1
+  position: Consultant
+  social:
+    - title: twitter
+      url: https://twitter.com/hacker_ferox
+    - title: facebook
+      url: https://facebook.com/hacker.ferox
+    - title: linkedin
+      url: https://www.linkedin.com/in/ferox
+
+- name: Klaibson Ribeiro
+  pic: 2
+  position: Instructor
+  social:
+    - title: twitter
+      url: https://twitter.com/klaibsonn
+    - title: facebook
+      url: https://www.facebook.com/klaibsonn
+    - title: linkedin
+      url: https://www.linkedin.com/in/klaibson
+
+- name: Rafael Conrado
+  pic: 3
+  position: Lead Developer
+  social:
+    - title: facebook
+      url: https://www.facebook.com/rafaconrado
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: https://github.com/ferox/freehammer
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Rua Vento Sul, 409
+  - line: Florianópolis, Santa Catarina
+
+# Build settings
+markdown: kramdown
+permalink: pretty
